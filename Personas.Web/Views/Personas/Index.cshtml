@@ -1,0 +1,118 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+</head>
+<body ng-app="Personas" ng-controller="PersonasController" ng-init="init()">
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="simple-tab-0" data-bs-toggle="tab" href="#simple-tabpanel-0" role="tab" aria-controls="simple-tabpanel-0" aria-selected="true">Agregar</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="simple-tab-1" data-bs-toggle="tab" href="#simple-tabpanel-1" role="tab" aria-controls="simple-tabpanel-1" aria-selected="false">Consulta Personas</a>
+            </li>
+        </ul>
+        <div class="tab-content pt-5" id="tab-content">
+            <div class="tab-pane active" id="simple-tabpanel-0" role="tabpanel" aria-labelledby="simple-tab-0">
+                <div class="panel panel-default">
+                    <div class="panel panel-heaing">
+                        <h5>Agregar</h5>
+                    </div>
+                    <div class="panel panel-body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="mb-3">
+                                    <label for="txtNombre" class="form-label">Nombre:</label>
+                                    <input type="text" class="form-control" id="txtNombre" placeholder="Nombre" maxlength="50" ng-model="Nombre">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="mb-3">
+                                    <label for="txtEdad" class="form-label">Edad</label>
+                                    <input type="Number" class="form-control" id="txtEdad" placeholder="0" ng-model="Edad">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="mb-3">
+                                    <label for="txtEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="txtEmail" placeholder="correo@dominio.com" ng-model="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <button type="button" class="btn btn-success" ng-click="AgregaPersona()" ng-disabled="btnDisabled">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="simple-tabpanel-1" role="tabpanel" aria-labelledby="simple-tab-1">
+                <div class="panel panel-default">
+                    <div class="panel panel-heading">
+                        <h5>Consulta Personas</h5>
+                    </div>
+                    <div class="panel panel-body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="mb-3">
+                                    <label for="txtIdPersona" class="form-label">Id persona</label>
+                                    <input type="text" class="form-control" id="txtIdPersona" ng-model="IdPersona">
+                                </div>
+                            </div>
+
+                            <div class="col-md-5">
+                                <div class="mb-3">
+                                    <br />
+                                    <button type="button" class="btn btn-success" id="btnConsultar" ng-click="ConsultaPersonas()" ng-disabled="btnDisabled">Consultar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-10">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Id</th>
+                                            <th>Nombre</th>
+                                            <th>Edad</th>
+                                            <th>Email</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="x in personas">
+                                            <td>{{x.Id}}</td>
+                                            <td>{{x.Nombre}}</td>
+                                            <td>{{x.Edad}}</td>
+                                            <td>{{x.Email}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/angular-route.js"></script>
+<script src="~/js/jsPersonas.js"></script>
