@@ -10,6 +10,9 @@ namespace Personas.API.Models
 {
     public class PersonaModel
     {
+        [JsonProperty(PropertyName = "Id")]
+        public int Id { get; set; }
+
         /// <summary>
         /// Nonre de la persona
         /// </summary>

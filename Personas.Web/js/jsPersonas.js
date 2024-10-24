@@ -1,20 +1,21 @@
-﻿var angularPersonas = angular.module('Personas', ['ngRoute'])
-
+﻿
+var angularPersonas = angular.module('Personas', ['ngRoute'])
 angularPersonas.controller('PersonasController', ['$scope', '$http', '$window', function ($scope, $http, $window) {
-    $scope.Nombre = 'Manuel';
-    $scope.Edad = 25;
-    $scope.Email = 'mmanuel@outlook.com';
+    $scope.Nombre;
+    $scope.Edad = 0;
+    $scope.Email ;
     $scope.btnDisabled = false;
     $scope.IdPersona = 0;
     $scope.btnDisabledCnsultar = false;
-
+    $scope.Mensaje;
+    $scope.MensajeOculto = true;
     $scope.init = function () {
 
     }
 
     $scope.AgregaPersona = function () {
         $scope.btnDisabled = true;
-
+        $scope.Mensaje = '';
         $http({
             method: 'POST',
             url: 'https://localhost:44317/api/persona/agregar',
@@ -32,17 +33,31 @@ angularPersonas.controller('PersonasController', ['$scope', '$http', '$window', 
             $scope.Edad = 0;
             $scope.Email = '';
             $scope.btnDisabled = false;
+
+            $scope.Mensaje = data.data.Mensaje;
+            $scope.MensajeOculto = false;
         }, function errorCallback(response) {
             console.log('Error');
 
             console.log(JSON.stringify(response));
 
             $scope.btnDisabled = false;
+
+            $scope.Mensaje = 'Error al agregar la persona';
+            $scope.MensajeOculto = false;
+
         });
     }
 
+    $scope.toggleAlert = function() {
+        $("#myModal").modal();
+    }
+
     $scope.ConsultaPersonas = function () {
+        $scope.MensajeOculto = true;
+        $scope.Mensaje = '';
         $scope.btnDisabledCnsultar = true; 
+        $scope.personas;
         var id = '';
 
         if ($scope.IdPersona > 0) {
@@ -60,9 +75,10 @@ angularPersonas.controller('PersonasController', ['$scope', '$http', '$window', 
             console.log('OK');
             console.log(JSON.stringify(data));
 
-            $scope.Nombre = '';
-            $scope.Edad = 0;
-            $scope.Email = '';
+            datos = data;
+
+            $scope.personas = data.data.Personas;
+
             $scope.btnDisabledCnsultar = false; 
         }, function errorCallback(response) {
             console.log('Error');

@@ -38,13 +38,11 @@ namespace Personas.API.Controllers
 
                     respuesta = new RespuestaModel { Resultado = false, Mensaje = $"Json invalido: {messages}" };
                 }
-
                 return Ok(respuesta);
             }
             catch (Exception ex)
             {
                 return InternalServerError(new Exception($"Error interno en el servicio {ex.Message}"));
-                //respuesta = new RespuestaModel { Resultado = false, Mensaje = $"Error interno en el servicio {ex.Message}"};
             }
             
         }
@@ -71,7 +69,7 @@ namespace Personas.API.Controllers
                 
                 if (resultadoPersonas.Count > 0)
                 {
-                    respuesta.Personas = resultadoPersonas.Select(x => new PersonaModel { Nombre = x.Nombre, Edad = x.Edad, Email = x.Email }).ToList();
+                    respuesta.Personas = resultadoPersonas.Select(x => new PersonaModel { Id=x.Id , Nombre = x.Nombre, Edad = x.Edad, Email = x.Email }).ToList();
                 }
                 else 
                 {
@@ -82,8 +80,6 @@ namespace Personas.API.Controllers
             }
             catch (Exception ex)
             {
-                //respuesta = new RespuestaConsultaModel { Resultado = false, Mensaje = $"Error interno en el servicio {ex.Message}" };
-
                 return InternalServerError(new Exception($"Error interno en el servicio {ex.Message}"));
             }
 

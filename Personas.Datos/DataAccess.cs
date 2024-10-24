@@ -11,8 +11,6 @@ namespace Personas.Datos
 {
     public class DataAccess
     {
-
-       
         public List<PersonaDTO> SelectQuery(string id)
         {
             List<PersonaDTO> personasBD = new List<PersonaDTO>(); 
@@ -33,6 +31,7 @@ namespace Personas.Datos
                         {
                             cmds.Parameters.Add(new SqlParameter("@P_ID", id));
                         }
+                        con.Open();
 
                         SqlDataReader r = cmds.ExecuteReader();
 
@@ -65,6 +64,8 @@ namespace Personas.Datos
                         cmds.Parameters.Add(new SqlParameter("@P_NOMBRE", persona.Nombre));
                         cmds.Parameters.Add(new SqlParameter("@P_EDAD", persona.Edad));
                         cmds.Parameters.Add(new SqlParameter("@P_EMAIL", persona.Email));
+
+                        con.Open();
 
                         int exec = cmds.ExecuteNonQuery();
 

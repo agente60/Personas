@@ -1,16 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mmanuel\\Desktop\\Personas\\Personas.API\\",
+  "WorkspaceRootPath": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA74EB05-2E48-40C2-9D04-8678791B1551}|Personas.API.csproj|c:\\users\\mmanuel\\desktop\\personas\\personas.api\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F074672-96F4-4BD1-9D8B-8EFDEDD4D707}|..\\Personas.Web\\Personas.Web.csproj|c:\\users\\iscmm\\documents\\github\\personas\\personas.web\\js\\jspersonas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F074672-96F4-4BD1-9D8B-8EFDEDD4D707}|..\\Personas.Web\\Personas.Web.csproj|c:\\users\\iscmm\\documents\\github\\personas\\personas.web\\views\\personas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA74EB05-2E48-40C2-9D04-8678791B1551}|Personas.API.csproj|c:\\users\\iscmm\\documents\\github\\personas\\personas.api\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA74EB05-2E48-40C2-9D04-8678791B1551}|Personas.API.csproj|solutionrelative:controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F074672-96F4-4BD1-9D8B-8EFDEDD4D707}|..\\Personas.Web\\Personas.Web.csproj|c:\\users\\mmanuel\\desktop\\personas\\personas.web\\js\\jspersonas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{CA74EB05-2E48-40C2-9D04-8678791B1551}|Personas.API.csproj|c:\\users\\iscmm\\documents\\github\\personas\\personas.api\\models\\personamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA74EB05-2E48-40C2-9D04-8678791B1551}|Personas.API.csproj|solutionrelative:models\\personamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F074672-96F4-4BD1-9D8B-8EFDEDD4D707}|..\\Personas.Web\\Personas.Web.csproj|c:\\users\\mmanuel\\desktop\\personas\\personas.web\\views\\personas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DD9D2C8F-83CB-41DA-8F72-FB55D8A807B9}|..\\Personas.Datos\\Personas.Datos.csproj|c:\\users\\iscmm\\documents\\github\\personas\\personas.datos\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F074672-96F4-4BD1-9D8B-8EFDEDD4D707}|..\\Personas.Web\\Personas.Web.csproj|c:\\users\\iscmm\\documents\\github\\personas\\personas.web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,133 +30,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 22,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Users\\mmanuel\\Desktop\\Personas\\Personas.API\\Controllers\\PersonaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PersonaController.cs",
-              "ToolTip": "C:\\Users\\mmanuel\\Desktop\\Personas\\Personas.API\\Controllers\\PersonaController.cs",
-              "RelativeToolTip": "Controllers\\PersonaController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAASAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.Web\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "..\\Personas.Web\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.Web\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "..\\Personas.Web\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:15:48.126Z",
+              "WhenOpened": "2024-10-24T02:14:51.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "jsPersonas.js",
-              "DocumentMoniker": "C:\\Users\\mmanuel\\Desktop\\Personas\\Personas.Web\\js\\jsPersonas.js",
-              "RelativeDocumentMoniker": "..\\Personas.Web\\js\\jsPersonas.js",
-              "ToolTip": "C:\\Users\\mmanuel\\Desktop\\Personas\\Personas.Web\\js\\jsPersonas.js",
-              "RelativeToolTip": "..\\Personas.Web\\js\\jsPersonas.js",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-23T20:25:13.728Z",
+              "DocumentIndex": 3,
+              "Title": "PersonaModel.cs",
+              "DocumentMoniker": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.API\\Models\\PersonaModel.cs",
+              "RelativeDocumentMoniker": "Models\\PersonaModel.cs",
+              "ToolTip": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.API\\Models\\PersonaModel.cs",
+              "RelativeToolTip": "Models\\PersonaModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T02:09:56.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.API\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.API\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "Controllers\\PersonaController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAD4vx4AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T01:51:44.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mmanuel\\Desktop\\Personas\\Personas.Web\\Views\\Personas\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.Web\\Views\\Personas\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\Personas.Web\\Views\\Personas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mmanuel\\Desktop\\Personas\\Personas.Web\\Views\\Personas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.Web\\Views\\Personas\\Index.cshtml",
               "RelativeToolTip": "..\\Personas.Web\\Views\\Personas\\Index.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T20:22:51.888Z",
+              "WhenOpened": "2024-10-24T01:46:08.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "jsPersonas.js",
+              "DocumentMoniker": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.Web\\js\\jsPersonas.js",
+              "RelativeDocumentMoniker": "..\\Personas.Web\\js\\jsPersonas.js",
+              "ToolTip": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.Web\\js\\jsPersonas.js",
+              "RelativeToolTip": "..\\Personas.Web\\js\\jsPersonas.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-24T01:42:30.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.Datos\\DataAccess.cs",
+              "RelativeDocumentMoniker": "..\\Personas.Datos\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\iscmm\\Documents\\GitHub\\Personas\\Personas.Datos\\DataAccess.cs",
+              "RelativeToolTip": "..\\Personas.Datos\\DataAccess.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIAwwFEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T01:24:51.67Z",
               "EditorCaption": ""
             }
           ]
